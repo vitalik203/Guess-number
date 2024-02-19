@@ -1,12 +1,27 @@
+body {
+  font-family: "Coiny", system-ui;
+}
 .wrapper {
+  width: 400px;
+  height: 400px;
+  margin: 55px auto;
+  border: 2px solid grey;
+  border-radius: 5px;
 }
 .header {
+  padding: 12px 12px 0 12px;
+  display: flex;
+  justify-content: space-between;
 }
 .header__again {
+}
+h1 {
+  text-align: center;
 }
 .header__info {
 }
 .main {
+  padding: 12px 12px 12px 12px;
 }
 .main__guessed_number {
 }
